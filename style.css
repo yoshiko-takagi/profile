@@ -4,7 +4,9 @@ body {
   color:rgb(73, 85, 121);
   font-family: 'Cabin', sans-serif;
   background-color: aliceblue;
-  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  /* background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%); */
+  /* background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%); */
 }
 
 h1, h2 {
