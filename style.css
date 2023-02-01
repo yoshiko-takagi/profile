@@ -1,0 +1,90 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lexend&display=swap');
+
+body {
+  color:rgb(73, 85, 121);
+  font-family: 'Cabin', sans-serif;
+  background-color: aliceblue;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+h1, h2 {
+  font-family: 'Lexend', sans-serif;
+  color: rgb(64, 66, 88);
+  line-height: 36px;
+  font-weight: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: rgb(247, 245, 235);
+  width: 500px;
+  margin: 24px auto;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 5px
+}
+
+img.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 50%)
+}
+
+.btn-blue {
+  background-color: rgb(76, 172, 188);
+  color: white;
+  padding: 16px 24px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+
+.btn-blue:hover {
+  background-color: rgb(73, 85, 121);
+  transition: 1s;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+.list-inline > li > a {
+  font-size: 40px;
+  color: grey;
+  padding: 0 8px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
